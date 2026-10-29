@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="busGrad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="65%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#091834"/>
+    </linearGradient>
+    <linearGradient id="winBus" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" rx="16" fill="#f8fafc"/>
+  <circle cx="200" cy="120" r="85" fill="#e0f2fe" opacity="0.6"/>
+
+  <!-- Shadow -->
+  <ellipse cx="200" cy="186" rx="165" ry="14" fill="#0f172a" opacity="0.25"/>
+
+  <!-- Bus Body -->
+  <g transform="translate(18, 25)">
+    <!-- Main Coach Body -->
+    <path d="M 20,138 
+             L 20,38 
+             C 20,24 30,16 46,16 
+             L 330,16 
+             C 346,16 358,28 362,48 
+             L 366,122 
+             C 366,134 358,138 348,138 
+             L 316,138 
+             C 310,118 290,105 268,105 
+             C 246,105 226,118 220,138 
+             L 124,138 
+             C 118,118 98,105 76,105 
+             C 54,105 34,118 28,138 Z" 
+          fill="url(#busGrad)"/>
+
+    <!-- Destination Sign / LED Headboard -->
+    <rect x="290" y="24" width="60" height="12" rx="3" fill="#0f172a"/>
+    <text x="320" y="33" font-family="monospace" font-size="7" font-weight="bold" fill="#38bdf8" text-anchor="middle">EXPRESS 01</text>
+
+    <!-- Panoramic Coach Windows -->
+    <rect x="28" y="44" width="46" height="48" rx="4" fill="url(#winBus)" opacity="0.85"/>
+    <rect x="80" y="44" width="46" height="48" rx="4" fill="url(#winBus)" opacity="0.85"/>
+    <rect x="132" y="44" width="46" height="48" rx="4" fill="url(#winBus)" opacity="0.85"/>
+    <rect x="184" y="44" width="46" height="48" rx="4" fill="url(#winBus)" opacity="0.85"/>
+    <rect x="236" y="44" width="46" height="48" rx="4" fill="url(#winBus)" opacity="0.85"/>
+    <!-- Driver Windshield -->
+    <path d="M 288,44 L 348,44 L 358,82 L 288,82 Z" fill="url(#winBus)" opacity="0.85"/>
+
+    <!-- Passenger Door Glass -->
+    <rect x="294" y="86" width="22" height="46" rx="2" fill="url(#winBus)" opacity="0.6"/>
+
+    <!-- Front & Rear Lights -->
+    <path d="M 360,110 L 366,113 L 364,124 Z" fill="#67e8f9"/>
+    <rect x="18" y="70" width="5" height="30" rx="2" fill="#ef4444"/>
+
+    <!-- Wheels -->
+    <g transform="translate(268, 138)">
+      <circle cx="0" cy="0" r="30" fill="#0f172a"/>
+      <circle cx="0" cy="0" r="22" fill="#334155"/>
+      <circle cx="0" cy="0" r="14" fill="#cbd5e1"/>
+      <circle cx="0" cy="0" r="5" fill="#1d4ed8"/>
+      <circle cx="0" cy="0" r="18" stroke="#f8fafc" stroke-width="2" stroke-dasharray="4 3" fill="none"/>
+    </g>
+    <g transform="translate(76, 138)">
+      <circle cx="0" cy="0" r="30" fill="#0f172a"/>
+      <circle cx="0" cy="0" r="22" fill="#334155"/>
+      <circle cx="0" cy="0" r="14" fill="#cbd5e1"/>
+      <circle cx="0" cy="0" r="5" fill="#1d4ed8"/>
+      <circle cx="0" cy="0" r="18" stroke="#f8fafc" stroke-width="2" stroke-dasharray="4 3" fill="none"/>
+    </g>
+
+    <!-- Aerodynamic Line -->
+    <path d="M 28,102 Q 190,96 355,104" stroke="#93c5fd" stroke-width="3" fill="none" opacity="0.8"/>
+  </g>
+</svg>

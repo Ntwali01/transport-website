@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="50" fill="url(#bgGrad2)"/>
+  <!-- Head & Hair -->
+  <!-- Long Hair style -->
+  <path d="M 30,42 C 30,22 40,16 50,16 C 60,16 70,22 70,42 C 72,56 68,68 68,68 L 32,68 C 32,68 28,56 30,42 Z" fill="#78350f"/>
+  <circle cx="50" cy="40" r="16" fill="#fcd34d"/>
+  <circle cx="50" cy="40" r="15" fill="#fde68a"/>
+  <!-- Blazer / Professional Outfit -->
+  <path d="M 22,86 C 22,66 35,60 50,60 C 65,60 78,66 78,86 Z" fill="#0b2545"/>
+  <polygon points="50,60 42,72 50,84 58,72" fill="#38bdf8"/>
+  <polygon points="50,64 45,72 50,80 55,72" fill="#ffffff"/>
+</svg>

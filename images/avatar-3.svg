@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#115e59"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="50" fill="url(#bgGrad3)"/>
+  <!-- Head & Glasses -->
+  <circle cx="50" cy="38" r="17" fill="#fed7aa"/>
+  <!-- Short Dark Hair -->
+  <path d="M 32,32 C 32,20 42,16 50,16 C 58,16 68,20 68,32 C 68,26 62,21 50,21 C 38,21 32,26 32,32 Z" fill="#1f2937"/>
+  <!-- Glasses -->
+  <circle cx="43" cy="37" r="5" stroke="#1f2937" stroke-width="2" fill="none"/>
+  <circle cx="57" cy="37" r="5" stroke="#1f2937" stroke-width="2" fill="none"/>
+  <line x1="48" y1="37" x2="52" y2="37" stroke="#1f2937" stroke-width="2"/>
+  <!-- Outfit -->
+  <path d="M 22,86 C 22,66 35,58 50,58 C 65,58 78,66 78,86 Z" fill="#1e293b"/>
+  <!-- Polo Collar -->
+  <polygon points="50,58 42,66 50,72 58,66" fill="#f1f5f9"/>
+</svg>

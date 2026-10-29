@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="suvGrad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="60%" stop-color="#034b8c"/>
+      <stop offset="100%" stop-color="#082247"/>
+    </linearGradient>
+    <linearGradient id="winSuv" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" rx="16" fill="#f8fafc"/>
+  <circle cx="200" cy="120" r="85" fill="#e0f2fe" opacity="0.6"/>
+
+  <!-- Shadow -->
+  <ellipse cx="200" cy="182" rx="155" ry="13" fill="#0f172a" opacity="0.25"/>
+
+  <!-- SUV Car Body -->
+  <g transform="translate(25, 38)">
+    <!-- Roof Rails -->
+    <path d="M 120,24 L 270,24" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <line x1="135" y1="24" x2="135" y2="29" stroke="#64748b" stroke-width="3"/>
+    <line x1="255" y1="24" x2="255" y2="29" stroke="#64748b" stroke-width="3"/>
+
+    <!-- Body -->
+    <path d="M 35,110 C 40,88 65,85 105,82 L 125,32 C 140,28 260,28 280,32 L 315,65 L 348,78 C 358,95 355,115 350,126 L 315,126 C 308,104 286,92 262,92 C 238,92 218,104 212,126 L 140,126 C 134,104 112,92 88,92 C 64,92 44,104 38,126 L 22,126 C 15,126 15,118 35,110 Z" fill="url(#suvGrad)"/>
+
+    <!-- Windows (3 partitions for SUV) -->
+    <path d="M 132,36 L 112,76 L 175,76 L 175,36 Z" fill="url(#winSuv)" opacity="0.85"/>
+    <path d="M 183,36 L 183,76 L 245,76 L 245,36 Z" fill="url(#winSuv)" opacity="0.85"/>
+    <path d="M 253,36 L 253,76 L 298,76 L 274,36 Z" fill="url(#winSuv)" opacity="0.85"/>
+
+    <!-- Lights -->
+    <path d="M 345,90 L 354,95 L 350,102 Z" fill="#67e8f9"/>
+    <path d="M 22,86 L 20,96 L 28,96 Z" fill="#ef4444"/>
+
+    <!-- Big rugged SUV wheels -->
+    <g transform="translate(262, 126)">
+      <circle cx="0" cy="0" r="32" fill="#0f172a"/>
+      <circle cx="0" cy="0" r="23" fill="#334155"/>
+      <circle cx="0" cy="0" r="14" fill="#cbd5e1"/>
+      <circle cx="0" cy="0" r="6" fill="#0284c7"/>
+      <circle cx="0" cy="0" r="18" stroke="#f8fafc" stroke-width="2" stroke-dasharray="6 4" fill="none"/>
+    </g>
+    <g transform="translate(88, 126)">
+      <circle cx="0" cy="0" r="32" fill="#0f172a"/>
+      <circle cx="0" cy="0" r="23" fill="#334155"/>
+      <circle cx="0" cy="0" r="14" fill="#cbd5e1"/>
+      <circle cx="0" cy="0" r="6" fill="#0284c7"/>
+      <circle cx="0" cy="0" r="18" stroke="#f8fafc" stroke-width="2" stroke-dasharray="6 4" fill="none"/>
+    </g>
+
+    <path d="M 40,88 Q 180,80 340,94" stroke="#7dd3fc" stroke-width="2.5" fill="none" opacity="0.7"/>
+  </g>
+</svg>
